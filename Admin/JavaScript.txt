@@ -1,0 +1,23 @@
+  <script>
+    function myFunction(x) {
+      x.classList.toggle("change");
+    }
+
+    function main1() {
+      let name = document.getElementById('a1').value;
+      let string = "You: " + name;
+      document.getElementsByClassName('comment')[0].innerHTML = string;
+
+
+    }
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+
+
+  </script>
